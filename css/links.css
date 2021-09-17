@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Source+Sans+Pro&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Archivo", sans-serif;
+}
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.navBarEdit {
+  padding-left: 1.5rem;
+  background-color: #1989ac;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  padding-top: 1rem;
+}
+
+.imgLinks {
+  max-width: 100px;
+  clip-path: circle();
+  margin: auto;
+  display: block;
+  margin-top: 50px;
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  display: block;
+  margin: 20px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.titles {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+.title::first-letter {
+  font-size: larger;
+}
+
+#linkContainer {
+  max-width: 600px;
+  margin: auto;
+  padding-top: 10px;
+}
+
+div > a {
+  background-color: rgba(255, 255, 255, 0.5);
+}
